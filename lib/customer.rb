@@ -39,7 +39,7 @@ class Customer
     oldest_age=0 
     oldest_customer = nil 
     self.all.each do |customer|
-      if customer.age > |customer|
+      if customer.age > oldest.age
         oldest_age = customer.age 
         oldest_customer = customer 
       end 
